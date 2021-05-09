@@ -27,11 +27,17 @@ pipx install eth-brownie
 npm install -g ganache-cli
 ```
 
-3. Download the mix and install dependancies. 
-
-```bash
-git clone
-```
-
 ## Quickstart
 
+
+1. Clone this repo
+
+```bash
+git clone https://github.com/PatrickAlphaC/erc20-brownie
+```
+
+2. Run a script
+
+```
+brownie run scripts/1_deploy_token.sol
+```
