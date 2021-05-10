@@ -1,4 +1,4 @@
-from brownie import network, accounts
+from brownie import network, accounts, config
 
 LOCAL_BLOCKCHAIN_ENVIRONMENTS = ["hardhat", "development", "mainnet-fork"]
 

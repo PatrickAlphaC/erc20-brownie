@@ -7,5 +7,6 @@ compiler:
 dotenv: .env
 networks:
   default: development
+  kovan: active
 wallets:
   from_key: ${PRIVATE_KEY}
