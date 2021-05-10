@@ -1,4 +1,4 @@
-# ERC20 Python, Brownie, Solidity=
+# ERC20 Python, Brownie, Solidity
 
 ## Prerequisites
 
