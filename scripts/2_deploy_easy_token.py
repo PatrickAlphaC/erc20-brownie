@@ -1,4 +1,4 @@
-from brownie import accounts, config, EasyToken, EasyToken
+from brownie import accounts, config, EasyToken
 from scripts.helpful_scripts import get_account
 
 
