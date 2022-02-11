@@ -1,9 +1,9 @@
 dependencies:
-  - OpenZeppelin/openzeppelin-contracts@3.4.0
+  - OpenZeppelin/openzeppelin-contracts@4.3.2
 compiler:
   solc:
     remappings:
-      - '@openzeppelin=OpenZeppelin/openzeppelin-contracts@3.4.0'
+      - '@openzeppelin=OpenZeppelin/openzeppelin-contracts@4.3.2'
 dotenv: .env
 networks:
   default: development
