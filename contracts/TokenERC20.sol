@@ -39,6 +39,8 @@ contract TokenERC20 {
         balanceOf[msg.sender] = totalSupply;                // Give the creator all initial tokens
         name = tokenName;                                   // Set the name for display purposes
         symbol = tokenSymbol;                               // Set the symbol for display purposes
+        emit Transfer(address(0), msg.sender, totalSupply);
+
     }
 
     /**
